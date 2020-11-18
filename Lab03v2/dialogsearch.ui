@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogSearch</class>
+ <widget class="QDialog" name="DialogSearch">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>268</width>
+    <height>105</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Search</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>261</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Select search option</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Code</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Product</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Amount</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Price</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Buyer</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Enter search query</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
